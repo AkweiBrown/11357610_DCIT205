@@ -3,9 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Arch-Hub</title>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <div class="logo">arch-hub</div>
+            <i class="fa-solid fa-bars" id="menu-icon" onclick="toggleMenu()"></i>
+            
+
+            <ul id="menu">
+                <li>Home</li>
+                <li>Showcase</li>
+                <li>Porfolio</li>
+                <li>About</li>
+            </ul>
+            <button class="get-started beautiful-button">Get Started</button>
+        </nav>
+
+        <div class="header-img">
+            <img src="media/th-removebg-preview.png" alt="">
+        </div>
+
+        <div class="intro-txt">
+            <h2>Creative World All Around Us!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button class="beautiful-button">Explore</button>
+        </div>
+    </header>
+
+    <section class="specialization">
+        <h3 class="title">Our Specialization</h3>
+
+        <div class="specialization-nav">
+            <i class="action-button fa-solid fa-circle-chevron-left" id="prevBtn"></i>
+            <i class="action-button fa-solid fa-circle-chevron-right" onclick="slideshow()" id="nextBtn"></i>
+        </div>
+
+        <div class="slideshow">
+            <div class="slide" id="planning">
+                <h3><i class="fa-sharp fa-solid fa-ruler"></i>Project Planning</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, fugiat eaque dolorem rem perferendis magnam!</p>
+            </div>
+            <div class="slide" id="interior">
+                <h3><i class="fa-solid fa-pen-nib"></i>Interior Designing</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, magni ex repellendus repellat vero necessitatibus.</p>
+            </div>
+            <div class="slide" id="exterior">
+                <h3><i class="fa-solid fa-pencil"></i>Exterior Designing</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium sunt eum, inventore animi totam eos.</p>
+            </div>
+          </div>
+    </section>
+
+    <section class="about">
+        <div class="about-intro">
+            <h3>About Us</h3>
+            <img src="media/about.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h4>Architect can Advise His Clients.</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, ipsa? Fuga perspiciatis temporibus aperiam reiciendis nam, voluptate quasi iure quidem facere assumenda. Velit unde, nihil nesciunt accusamus quasi explicabo neque corrupti voluptas odit animi consectetur debitis dolores laudantium provident amet aliquam, repellat accusantium iste similique pariatur aliquid ea ut! Dolore soluta officia odit assumenda, laudantium, unde qui iure ab rerum deserunt mollitia fuga ducimus pariatur quod. Soluta voluptates modi eaque, corrupti fugiat provident non incidunt tempore pariatur voluptate nisi porro sed, minus voluptatibus. Tenetur iste corrupti quam labore, ea quas praesentium qui distinctio minus consequuntur vero quo, expedita optio quisquam enim alias ratione officia commodi a aperiam voluptatem dolorum exercitationem! Eaque non, dolorem, totam qui, fugiat nihil aliquam iure perspiciatis possimus impedit voluptates recusandae neque obcaecati. Recusandae ut at quia quas perferendis, deleniti officia minima praesentium dolorum ad blanditiis qui repellendus provident explicabo molestias quaerat eveniet dolores magnam ipsa laudantium nihil nemo laborum illum? Quibusdam hic repudiandae, eos nihil architecto eligendi doloremque blanditiis minima inventore, molestiae mollitia adipisci optio eveniet nostrum libero excepturi sapiente dignissimos illum? Aliquam explicabo quis labore impedit velit nesciunt eaque voluptatibus, ea obcaecati quas fugit repellat perspiciatis fugiat rerum? Dolores possimus esse consectetur a veritatis excepturi, alias veniam, reiciendis eos, ut quibusdam labore. Sed ab saepe nesciunt dolor a expedita illum est beatae voluptate alias sequi culpa necessitatibus distinctio itaque eum molestiae eius totam dignissimos, debitis delectus, quaerat eaque deserunt eveniet modi! Beatae perferendis, ad voluptate error itaque sunt, esse rem consequatur ut facilis maiores quo asperiores, impedit sint quae amet commodi voluptatum. Sapiente cum recusandae ratione quae quas perspiciatis neque dolores deleniti est placeat! Sapiente cum rem id voluptatibus, placeat modi alias laboriosam natus. Perspiciatis molestiae obcaecati nam illum quasi veritatis animi placeat esse saepe quam nihil est quo architecto minus, beatae reprehenderit ut consequuntur.</p>
+        
+            <button class="beautiful-button">Contact Us</button>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="social-media">
+            <div class="logo">arch-hub</div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus hic, illo id quis deleniti ipsa.</p>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+        </div>
+
+        <div class="flex-display">
+            <div class="footer-item links company">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">Who are we</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-item links important">
+                <h3>Important Links</h3>
+                <ul>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Showcase</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+   
+      
+      
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a8f8815091.js" crossorigin="anonymous"></script>
 </body>
 </html>
