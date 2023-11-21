@@ -23,3 +23,8 @@ body{
 .navbar{
     display:none;
 }
+
+
+.intro-hm{
+    background: url(img/hm-bg.jpg);
+}
