@@ -17,26 +17,50 @@ body{
 }
 
 .logo{
-    height: 2.6em;
-    width: 12em;
+    height: 3em;
+    width: 18em;
 }
 
 .navbar{
-    display:none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar li{
+    list-style: none;
+    margin-right: 3em;
+    font-size: 1.1em;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: #000000;
+    transition: .3s;
+}
+
+.navbar li a:hover{
+    color: #bd9c6c;
 }
 
   
 .intro-hm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/hm-bg1.jpg);
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment:scroll;
     background-repeat: no-repeat;
     position: relative;
-    height: 60vh;
+    height: 100vh;
     overflow: hidden;
-  }
+}
   
-  .intro-hm::before {
+.intro-hm::before {
     content: "";
     position: absolute;
     top: 0;
@@ -45,15 +69,19 @@ body{
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
     z-index: 1; /* Ensure the overlay is above the background image */
-  }
+}
+
+.intro-hm .intro-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
   
-  .intro-hm h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white; /* Set the text color */
-    z-index: 2; /* Ensure the text is above the overlay */
-    /* Additional styles for your h1 heading */
-  }
+.intro-hm h1 {
+    color: rgb(233, 231, 231);
+    font-size: 4em;
+    width: 60%;
+    z-index: 2;
+}
   
