@@ -496,4 +496,9 @@ h2 {
 }
 
 
-/* Undergraduate Programmes */
+/* PHD  */
+
+#phd{
+    height: 600px;
+    width: 100%;
+}
