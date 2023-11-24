@@ -3,10 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>Register Now</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Register for a Program</h1>
+
+    <section class="intro-hm intro-about" id="register-intro">
+        <div class="intro-txt">
+            <h1>Register for a Program</h1>
+        </div>
+    </section>
+  <h1 id="register-h1">Fill out the form below to register for a shortcourse</h1>
   
   <form action="/submit_registration" method="POST">
     <label for="fullname">Full Name:</label><br>
@@ -18,16 +24,17 @@
     <label for="program">Select a Program:</label><br>
     <select id="program" name="program" required>
       <option value="">Select Program</option>
-      <option value="Program A">Program A</option>
-      <option value="Program B">Program B</option>
-      <option value="Program C">Program C</option>
+      <option value="Program A">Computer Network Fundamentals (CCNA)</option>
+      <option value="Program B">Mobile Application Development</option>
+      <option value="Program C">Introduction To Web Programming</option>
+      <option value="Program C">Information Security and Ethical Hacking</option>
       <!-- Add more program options as needed -->
     </select><br><br>
     
     <label for="comments">Comments:</label><br>
     <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
     
-    <input type="submit" value="Register">
+    <input class="learn-more" type="submit" value="Register">
   </form>
 </body>
 </html>
