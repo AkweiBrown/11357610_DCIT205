@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register Now</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Register for a Program</h1>
+  
+  <form action="/submit_registration" method="POST">
+    <label for="fullname">Full Name:</label><br>
+    <input type="text" id="fullname" name="fullname" required><br><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="program">Select a Program:</label><br>
+    <select id="program" name="program" required>
+      <option value="">Select Program</option>
+      <option value="Program A">Program A</option>
+      <option value="Program B">Program B</option>
+      <option value="Program C">Program C</option>
+      <!-- Add more program options as needed -->
+    </select><br><br>
+    
+    <label for="comments">Comments:</label><br>
+    <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+    
+    <input type="submit" value="Register">
+  </form>
+</body>
+</html>

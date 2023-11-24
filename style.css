@@ -71,7 +71,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(img/about-banner.jpg);
+    background-image: url(img/dcs-banner.jpg);
     background-position: center;
     background-size: cover;
     background-attachment:scroll;
@@ -128,6 +128,10 @@ body {
     z-index: 2;
 }
   
+
+#contact-hm{
+    background-image: url(img/about-banner.jpg);
+}
 /* What we Offer */
 
 
@@ -502,3 +506,4 @@ h2 {
     height: 600px;
     width: 100%;
 }
+
