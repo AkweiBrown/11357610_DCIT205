@@ -1,17 +1,19 @@
 Computer Science Department Website
+
 Introduction and Purpose
 This project entails the creation of a 10-page website dedicated to the Computer Science Department. The objective is to enhance user experience, accessibility, and information presentation related to various facets of the department.
 
 How to Clone and Set Up the Project
 To clone and set up the project, follow these steps:
+1. Clone the repository from https://github.com/AkweiBrown/11357610_DCIT205.git.
+2. Navigate to the project directory.
+3. Open the index.html file in your preferred web browser to explore the website.
 
-Clone the repository from https://github.com/AkweiBrown/11357610_DCIT205.git.
-Navigate to the project directory.
-Open the index.html file in your preferred web browser to explore the website.
 Author Information
 Author: Ryan Brown
-Student ID: [Your Student ID]
+Student ID: [11357610]
 Screenshots
+
 Below are screenshots of each page of the website:
 
 Home Page
