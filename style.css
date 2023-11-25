@@ -347,6 +347,10 @@ h2 {
     background-color: #45a049;
 }
 
+.site-footer p{
+    color: #fff;
+}
+
 .site-footer .footer-links {
     display: flex;
     justify-content: space-between;
