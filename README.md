@@ -15,7 +15,7 @@ Author Information
   
 ---
 
-## Below are screenshots of each page of the website:
+### Below are screenshots of each page of the website:
 
 Home Page
 ![Home Page Screenshot](img/homepage.jpeg)
