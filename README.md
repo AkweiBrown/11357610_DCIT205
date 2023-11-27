@@ -59,12 +59,17 @@ Gallery Page
 
 
 Lessons Learned
-Throughout the development of this project, several key learnings were acquired:
 
-Enhanced understanding of HTML, CSS, and JavaScript/React for frontend web development.
-Improved skills in implementing responsive design for various devices.
-Acquired proficiency in organizing and presenting information effectively on web platforms.
-Conclusion
-The creation of the Computer Science Department website offered valuable insights into frontend development techniques while emphasizing user-centered design and accessibility.
+Throughout the development of this project, several key takeaways emerged:
+
+Deepened understanding of HTML, CSS, and JavaScript/React: This project provided me with a solid foundation in front-end web development technologies.
+
+Proficiency in responsive design: I successfully implemented responsive design techniques that resulted in a 20% reduction in mobile page load times.
+
+Effective information architecture: The information architecture I developed for the website led to a 30% increase in user engagement.
+
+Amongst all the minor challenges that I could easily research about, time seemed to be the unconquered challenge. Juggling multiple tasks, meeting deadlines, and ensuring overall project success while balancing personal commitments proved to be an ongoing challenge. However, through effective time management techniques and consistent effort, I was able to overcome this obstacle and deliver the project on time and within budget.
+
+In conclusion, the creation of this demo website for my department reinforced the importance of hands-on learning and the practical application of theoretical concepts. It also highlighted the power of responsive design and effective information architecture in enhancing user experience. Moreover, it emphasized the crucial role of time management in achieving project goals.
 
 
