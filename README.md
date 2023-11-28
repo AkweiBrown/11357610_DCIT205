@@ -1,5 +1,5 @@
 # Computer Science Department Website
----
+
 Introduction and Purpose
 - This project entails the creation of a 10-page website dedicated to the == Computer Science Department ==. The objective is to enhance user experience, accessibility, and information presentation related to various facets of the department.
 
