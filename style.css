@@ -706,4 +706,24 @@ p {
     .about-content h3 {
         font-size: 1.6em;
     }
+
+    /* Contact Us */
+
+    #contact-h1 {
+        font-size: 2em;
+    }
+
+    .container {
+        padding: 10px;
+        margin: 0;
+        width: 100%;
+    }
+
+    #contact-form {
+        padding: 0;
+    }
+
+    form {
+        width: 90%;
+    }
 }
