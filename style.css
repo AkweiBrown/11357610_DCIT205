@@ -625,3 +625,52 @@ p {
 .gallery img:hover {
     transform: scale(1.05);
 }
+
+
+
+
+@media screen and (max-width:768px) {
+
+    .header{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .intro-hm h1{
+        font-size: 3em;
+    }
+
+    .what-we-offer h2{
+        font-size: 2em;
+    }
+
+    .offers{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .card h3{
+        font-size: 1.3em;
+    }
+    .card p{
+        font-size: 1em;
+    }
+
+    .departmental-events .intro-txt h1{
+        font-size: 2em;
+    }
+
+    .learn-more{
+        font-size: .8em;
+    }
+
+    
+    .site-footer .footer-links {
+        flex-wrap: wrap;
+    }
+
+    .site-footer .footer-section {
+        margin-bottom: 40px;
+    }
+    
+}
